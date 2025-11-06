@@ -72,13 +72,32 @@
 		<img src="oazis.png" alt="oázis" title="oázis" class="tevekep" id="oazis">
 
 		<form action="">
-			<label for="nev" Név:</label>
+			<label for="nev" Név: </label>
 				<input type="text" id="nev" display="block">
-				<label for="true">Igaz</label>
 				<br>
-				<input type="radio" id="true">
-				<label for="false">Hamis</label>
+
+				<label for="legs">Hány lába van egy tevének? (Kiegészitö kérdő mondat)</label>
+				<input type="number" id="legs">
+
+
+				<p>Szereted a tevéket? (Eldöntendö kérdő möndat)</p>
+				<input type="radio" id="true" name="teve">
+				<label for="true">Igan</label>
 				<br>
+				<input type="radio" id="true" name="teve">
+				<label for="false">Nem</label>
+				<br>
+
+				<p>Mit esznek a tevék?
+					<input type="checkbox" name="x1" id="x1">
+					<label for="x1">Kaktuszt</label>
+
+					<input type="checkbox" name="x2" id="x2">
+					<label for="x2">Homok</label>
+
+					<input type="checkbox" name="x3" id="x3">
+					<label for="x3">Dinnye</label>
+				</p>
 
 				<button>Tipp</button>
 				<br>
